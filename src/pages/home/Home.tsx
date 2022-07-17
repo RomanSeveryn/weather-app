@@ -82,7 +82,7 @@ export const Home = () => {
         >
           <TextField
             value={search}
-            helperText="Please enter your name"
+            helperText="Please enter city and push Enter"
             id="demo-helper-text-aligned"
             label="Name"
             onChange={(e) => setSearch(e.target.value)}
